@@ -24,7 +24,7 @@
         android:layout_marginTop="32dp"
         android:background="#FFFFFF"
         android:gravity="center"
-        android:text="CONVERSOR DE DIVISAS"
+        android:text="CONVERSOR DE DIVISA"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
