@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C5E1F4"
+    android:background="#3CA6A6"
     tools:context=".MainActivity">
 
     <ImageView
@@ -22,9 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
-        android:background="#FFFFFF"
+        android:background="#026773"
         android:gravity="center"
         android:text="CONVERSOR DE DIVISA"
+        android:textColor="#FDFDFD"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -37,9 +38,13 @@
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="76dp"
+        android:backgroundTint="#FDFDFD"
         android:ems="10"
+        android:gravity="center_horizontal"
         android:hint="IMPORTE"
         android:inputType="number"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -49,6 +54,7 @@
         android:layout_height="55dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="36dp"
+        android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -57,6 +63,7 @@
         android:layout_width="201dp"
         android:layout_height="55dp"
         android:layout_marginTop="32dp"
+        android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/divisaIngresada"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/divisaIngresada"
@@ -66,11 +73,12 @@
         android:id="@+id/buttonConvert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="56dp"
         android:layout_marginBottom="92dp"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="#F2E3D5"
         android:text="Convertir"
         android:textColor="#000000"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -79,9 +87,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
+        android:layout_marginEnd="56dp"
         android:layout_marginBottom="92dp"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#012E40"
         android:text="Reiniciar"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.039"
